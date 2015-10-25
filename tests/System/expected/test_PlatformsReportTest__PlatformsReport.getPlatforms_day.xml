@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<result>
+	<row>
+		<label>Desktop / GNU/Linux / Firefox 6.0</label>
+		<nb_uniq_visitors>2</nb_uniq_visitors>
+		<nb_visits>10</nb_visits>
+		<nb_actions>10</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>10</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Desktop / GNU/Linux / Chrome 3.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Desktop / GNU/Linux / Safari 5.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Desktop / Mac 10.6 / Opera 11.52</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Desktop / Windows 7 / Chrome 3.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Desktop / Windows 7 / Firefox 6.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Desktop / Windows 8 / Internet Explorer 9.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Desktop / Windows Vista / Internet Explorer 9.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Smartphone / Android 4.0 / Chrome 22.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Smartphone / Android 4.0 / Firefox 14.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Smartphone / Android 4.0 / Internet Explorer 9.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Tablet / iOS 6.0 / Firefox 14.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Tablet / iOS 6.0 / Mobile Safari 5.0</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+	<row>
+		<label>Portable media player / iOS 4.3 / Opera 12.00</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>5</nb_visits>
+		<nb_actions>5</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>5</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+	</row>
+</result>

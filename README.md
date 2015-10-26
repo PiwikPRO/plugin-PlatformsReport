@@ -2,18 +2,13 @@
 
 ## Description
 
-Add your plugin description here.
+Includes two new reports: Platforms and Platforms With Versions.
 
-## FAQ
+The **Platforms** report displays visitors by their device type, OS and browser.
 
-__My question?__
-
-My answer
+The **Platforms With Versions** report displays the same information, but includes OS version & browser version information.
 
 ## Changelog
 
-Here goes the changelog text.
-
-## Support
-
-Please direct any feedback to ...
+- 1.0.0
+  * Initial release.

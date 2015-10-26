@@ -3,6 +3,7 @@
 	<website>Piwik test</website>
 	<prettyDate>Sunday, January 3, 2010</prettyDate>
 	<metadata>
+		<category>Visitors</category>
 		<name>Platforms</name>
 		<module>PlatformsReport</module>
 		<action>getPlatforms</action>

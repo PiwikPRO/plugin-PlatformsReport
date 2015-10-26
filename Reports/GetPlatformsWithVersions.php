@@ -19,7 +19,7 @@ class GetPlatformsWithVersions extends Report
     {
         parent::init();
 
-        $this->category = 'CoreHome_Visitors';
+        $this->category = 'General_Visitors';
         $this->dimension = new Platform();
         $this->name = Piwik::translate('PlatformsReport_PlatformsWithVersions');
         $this->documentation = Piwik::translate('PlatformsReport_GetPlatformsWithVersionsDocumentation');

@@ -24,10 +24,24 @@ class PlatformsReportTest extends SystemTestCase
 
     public function getApiForTesting()
     {
+        $idSite = self::$fixture->idSite;
+        $dateTime = self::$fixture->dateTime;
+
         return array(
-            array('PlatformsReport', array('idSite' => self::$fixture->idSite,
-                                           'date' => self::$fixture->dateTime,
+            array('PlatformsReport', array('idSite' => $idSite,
+                                           'date' => $dateTime,
                                            'periods' => 'day')),
+
+            // API metadata tests
+            array('API.getProcessedReport', array('idSite' => $idSite, 'date' => $dateTime,
+                'apiModule'              => 'PlatformsReport',
+                'apiAction'              => 'getPlatforms',
+                'testSuffix'             => '_getPlatforms')),
+
+            array('API.getProcessedReport', array('idSite' => $idSite, 'date' => $dateTime,
+                'apiModule'              => 'PlatformsReport',
+                'apiAction'              => 'getPlatformsWithVersions',
+                'testSuffix'             => '_getPlatformsWithVersions')),
         );
     }
 

@@ -2,6 +2,8 @@
     "PlatformsReport": {
         "Platforms": "Platforms",
         "Platform": "Platform",
-        "GetPlatformsDocumentation": "Displays visitors for each Device Type, OS version and Browser version combination."
+        "GetPlatformsDocumentation": "Displays visitors for each Device Type, OS family and Browser combination.",
+        "PlatformsWithVersions": "Platforms With Versions",
+        "GetPlatformsWithVersionsDocumentation": "Displays visitors for each Device Type, OS (with version) and Browser (with version) combination."
     }
 }

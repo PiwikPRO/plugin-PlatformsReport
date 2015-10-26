@@ -22,7 +22,7 @@ class Platform extends Dimension
         return Piwik::translate('PlatformsReport_Platform');
     }
 
-    public static function getPrettified($value)
+    public static function getPrettified($value, $useOsFullName = true, $useBrowserFullName = true)
     {
         $parts = explode(";", $value);
         if (empty($parts)
@@ -34,9 +34,19 @@ class Platform extends Dimension
         list($deviceType, $os, $osVersion, $browserName, $browserVersion) = $parts;
 
         $deviceType = \Piwik\Plugins\DevicesDetection\getDeviceTypeLabel($deviceType);
-        $osFullName = \Piwik\Plugins\DevicesDetection\getOsFullName($os . ';' . $osVersion);
-        $browserWithVersion = \Piwik\Plugins\DevicesDetection\getBrowserNameWithVersion($browserName . ';' . $browserVersion);
 
-        return $deviceType . " / " . $osFullName . " / " . $browserWithVersion;
+        if ($useBrowserFullName) {
+            $browserLabel = \Piwik\Plugins\DevicesDetection\getBrowserNameWithVersion($browserName . ';' . $browserVersion);
+        } else {
+            $browserLabel = \Piwik\Plugins\DevicesDetection\getBrowserName($browserName);
+        }
+
+        if ($useOsFullName) {
+            $osLabel = \Piwik\Plugins\DevicesDetection\getOsFullName($os . ';' . $osVersion);
+        } else {
+            $osLabel = \Piwik\Plugins\DevicesDetection\getOSFamilyFullName($os);
+        }
+
+        return $deviceType . " / " . $osLabel . " / " . $browserLabel;
     }
 }

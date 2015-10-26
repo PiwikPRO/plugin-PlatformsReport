@@ -13,18 +13,17 @@ use Piwik\Plugin\Report;
 use Piwik\Plugin\ViewDataTable;
 use Piwik\Plugins\PlatformsReport\Columns\Platform;
 
-class GetPlatforms extends Report
+class GetPlatformsWithVersions extends Report
 {
     protected function init()
     {
         parent::init();
 
         $this->dimension = new Platform();
-        $this->name = Piwik::translate('PlatformsReport_Platforms');
-        $this->documentation = Piwik::translate('PlatformsReport_GetPlatformsDocumentation');
-        $this->widgetTitle = 'PlatformsReport_Platforms';
+        $this->name = Piwik::translate('PlatformsReport_PlatformsWithVersions');
+        $this->documentation = Piwik::translate('PlatformsReport_GetPlatformsWithVersionsDocumentation');
+        $this->widgetTitle = 'PlatformsReport_PlatformsWithVersions';
         $this->order = 30;
-        $this->menuTitle   = 'PlatformsReport_Platforms';
     }
 
     public function configureView(ViewDataTable $view)
@@ -35,7 +34,7 @@ class GetPlatforms extends Report
     public function getRelatedReports()
     {
         return array(
-            new GetPlatformsWithVersions(),
+            new GetPlatforms(),
         );
     }
 }

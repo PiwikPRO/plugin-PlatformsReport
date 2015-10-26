@@ -30,6 +30,17 @@ class API extends \Piwik\Plugin\API
         $dataTable = $this->getDataTable(Archiver::PLATFORMS_RECORD_NAME, $idSite, $period, $date, $segment);
 
         $getPlatformPrettyString = array('Piwik\Plugins\PlatformsReport\Columns\Platform', 'getPrettified');
+        $dataTable->filter('GroupBy', array('label', $getPlatformPrettyString,
+            array($useFullName = false, $useBrowserFullName = false)));
+
+        return $dataTable;
+    }
+
+    public function getPlatformsWithVersions($idSite, $period, $date, $segment = false)
+    {
+        $dataTable = $this->getDataTable(Archiver::PLATFORMS_RECORD_NAME, $idSite, $period, $date, $segment);
+
+        $getPlatformPrettyString = array('Piwik\Plugins\PlatformsReport\Columns\Platform', 'getPrettified');
         $dataTable->queueFilter('ColumnCallbackReplace', array('label', $getPlatformPrettyString));
 
         return $dataTable;

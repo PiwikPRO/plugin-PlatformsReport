@@ -8,6 +8,7 @@
 
 namespace Piwik\Plugins\PlatformsReport\Reports;
 
+use Piwik\Menu\MenuReporting;
 use Piwik\Piwik;
 use Piwik\Plugin\Report;
 use Piwik\Plugin\ViewDataTable;
@@ -19,6 +20,7 @@ class GetPlatforms extends Report
     {
         parent::init();
 
+        $this->category = 'General_Visitors';
         $this->dimension = new Platform();
         $this->name = Piwik::translate('PlatformsReport_Platforms');
         $this->documentation = Piwik::translate('PlatformsReport_GetPlatformsDocumentation');

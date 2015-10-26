@@ -1,5 +1,5 @@
 {
-  "name": "PlatformReports",
+  "name": "PlatformsReport",
   "version": "1.0.0",
   "description": "Displays a new report that aggregates visits based on device type, os version & browser version.",
   "theme": false,

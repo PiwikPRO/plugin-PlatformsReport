@@ -30,7 +30,7 @@ class PlatformsReportTest extends SystemTestCase
         return array(
             array('PlatformsReport', array('idSite' => $idSite,
                                            'date' => $dateTime,
-                                           'periods' => array('day', 'month'))),
+                                           'periods' => array('day'))),
 
             // API metadata tests
             array('API.getProcessedReport', array('idSite' => $idSite, 'date' => $dateTime,

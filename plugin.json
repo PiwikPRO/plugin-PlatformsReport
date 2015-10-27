@@ -14,5 +14,6 @@
     }
   ],
   "license": "GPL v3+",
+  "keywords": ["platforms", "operating system", "browser", "device type"],
   "homepage": "http://piwik.pro"
 }

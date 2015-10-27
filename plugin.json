@@ -12,5 +12,7 @@
       "email": "contact@piwik.pro",
       "homepage": "https://piwik.pro"
     }
-  ]
+  ],
+  "license": "GPL v3+",
+  "homepage": "http://piwik.pro"
 }

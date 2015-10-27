@@ -1,16 +1,16 @@
 {
   "name": "PlatformsReport",
   "version": "1.0.0",
-  "description": "Displays a new report that aggregates visits based on device type, os version & browser version.",
+  "description": "New report in Visitors > Platforms that aggregates visits based on device type, OS version & browser version.",
   "theme": false,
   "require": {
-    "piwik": ">=2.15.0"
+    "piwik": ">=2.14.3"
   },
   "authors": [
     {
-      "name": "Piwik",
-      "email": "",
-      "homepage": ""
+      "name": "Piwik PRO",
+      "email": "contact@piwik.pro",
+      "homepage": "https://piwik.pro"
     }
   ]
 }

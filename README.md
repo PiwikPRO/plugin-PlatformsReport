@@ -10,5 +10,7 @@ The **Platforms With Versions** report displays the same information, but includ
 
 ## Changelog
 
+- 1.0.1
+  * Initial release on Marketplace.
 - 1.0.0
   * Initial release.

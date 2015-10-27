@@ -1,6 +1,6 @@
 {
   "name": "PlatformsReport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "New report in Visitors > Platforms that aggregates visits based on device type, OS version & browser version.",
   "theme": false,
   "require": {

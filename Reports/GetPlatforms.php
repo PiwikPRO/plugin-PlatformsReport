@@ -25,7 +25,7 @@ class GetPlatforms extends Report
         $this->name = Piwik::translate('PlatformsReport_Platforms');
         $this->documentation = Piwik::translate('PlatformsReport_GetPlatformsDocumentation');
         $this->widgetTitle = 'PlatformsReport_Platforms';
-        $this->order = 30;
+        $this->order = 51;
         $this->menuTitle   = 'PlatformsReport_Platforms';
     }
 

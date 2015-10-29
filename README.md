@@ -2,11 +2,13 @@
 
 ## Description
 
-Includes two new reports: Platforms and Platforms With Versions.
+Includes two new reports: Platforms and Platforms With Versions. 
 
 The **Platforms** report displays visitors by their device type, OS and browser.
 
 The **Platforms With Versions** report displays the same information, but includes OS version & browser version information.
+
+The new reports are available via the Visitors > Platforms menu.
 
 ## Changelog
 

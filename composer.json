@@ -1,0 +1,19 @@
+{
+    "name": "piwikpro/PlatformsReport",
+    "type": "piwik-plugin",
+    "description": "Displays a new report that aggregates visits based on device type, os version & browser version",
+    "license": "Paid plugin",
+    "license_homepage": "http://piwik.pro/contact",
+    "homepage": "http://piwik.pro",
+    "version": "1.0.4",
+    "authors": [
+        {
+            "name": "PiwikPRO",
+            "email": "contact@piwik.pro"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "piwik/piwik": ">=2.14.3"
+    }
+}

@@ -1,9 +1,11 @@
 <?php
 /**
- * Piwik - free/libre analytics platform
+ * Copyright (C) Piwik PRO - All rights reserved.
  *
- * @link http://piwik.org
- * @license http://www.gnu.org/licenses/gpl-3.0.html GPL v3 or later
+ * Using this code requires that you first get a license from Piwik PRO.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ *
+ * @link http://piwik.pro
  */
 
 namespace Piwik\Plugins\PlatformsReport\tests\System;
@@ -12,8 +14,10 @@ use Piwik\Tests\Fixtures\ManyVisitsWithMockLocationProvider;
 use Piwik\Tests\Framework\TestCase\SystemTestCase;
 
 /**
+ * @group Plugins
  * @group PlatformsReport
  * @group PlatformsReport_System
+ * @group PlatformsReport_System_PlatformsReportTest
  */
 class PlatformsReportTest extends SystemTestCase
 {

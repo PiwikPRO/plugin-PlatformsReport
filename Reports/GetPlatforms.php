@@ -1,14 +1,15 @@
 <?php
 /**
- * Piwik - free/libre analytics platform
+ * Copyright (C) Piwik PRO - All rights reserved.
  *
- * @link http://piwik.org
- * @license http://www.gnu.org/licenses/gpl-3.0.html GPL v3 or later
+ * Using this code requires that you first get a license from Piwik PRO.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ *
+ * @link http://piwik.pro
  */
 
 namespace Piwik\Plugins\PlatformsReport\Reports;
 
-use Piwik\Menu\MenuReporting;
 use Piwik\Piwik;
 use Piwik\Plugin\Report;
 use Piwik\Plugin\ViewDataTable;
@@ -20,13 +21,14 @@ class GetPlatforms extends Report
     {
         parent::init();
 
-        $this->category = 'General_Visitors';
-        $this->dimension = new Platform();
+        $this->categoryId = 'General_Visitors';
+        $this->subcategoryId = 'PlatformsReport_Platforms';
         $this->name = Piwik::translate('PlatformsReport_Platforms');
-        $this->documentation = Piwik::translate('PlatformsReport_GetPlatformsDocumentation');
         $this->widgetTitle = 'PlatformsReport_Platforms';
-        $this->order = 51;
         $this->menuTitle   = 'PlatformsReport_Platforms';
+        $this->dimension = new Platform();
+        $this->documentation = Piwik::translate('PlatformsReport_GetPlatformsDocumentation');
+        $this->order = 51;
     }
 
     public function configureView(ViewDataTable $view)

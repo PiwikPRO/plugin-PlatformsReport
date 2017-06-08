@@ -12,6 +12,8 @@ The new reports are available via the Visitors > Platforms menu.
 
 ## Changelog
 
+- 2.0.0
+  * Piwik 3 compatibility
 - 1.0.3
   * Moved sub-menu entry after 'Software'
 - 1.0.2

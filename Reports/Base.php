@@ -10,24 +10,23 @@
 
 namespace Piwik\Plugins\PlatformsReport\Reports;
 
-use Piwik\Piwik;
+use Piwik\Plugin\Report;
 use Piwik\Plugin\ViewDataTable;
+use Piwik\Plugins\PlatformsReport\Columns\Platform;
 
-class GetPlatforms extends Base
+abstract class Base extends Report
 {
     protected function init()
     {
         parent::init();
 
-        $this->name = Piwik::translate('PlatformsReport_Platforms');
-        $this->documentation = Piwik::translate('PlatformsReport_GetPlatformsDocumentation');
-        $this->order = 51;
+        $this->categoryId = 'General_Visitors';
+        $this->subcategoryId = 'PlatformsReport_Platforms';
+        $this->dimension = new Platform();
     }
 
-    public function getRelatedReports()
+    public function configureView(ViewDataTable $view)
     {
-        return array(
-            new GetPlatformsWithVersions(),
-        );
+        $view->config->addTranslation('label', $this->dimension->getName());
     }
 }

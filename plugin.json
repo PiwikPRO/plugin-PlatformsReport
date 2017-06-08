@@ -13,7 +13,8 @@
       "homepage": "https://piwik.pro"
     }
   ],
-  "license": "GPL v3+",
+  "license": "Paid plugin",
+  "license_homepage": "https://piwik.pro/contact",
   "keywords": ["platforms", "operating system", "browser", "device type"],
   "homepage": "http://piwik.pro"
 }

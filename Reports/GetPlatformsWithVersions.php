@@ -1,35 +1,27 @@
 <?php
 /**
- * Piwik - free/libre analytics platform
+ * Copyright (C) Piwik PRO - All rights reserved.
  *
- * @link http://piwik.org
- * @license http://www.gnu.org/licenses/gpl-3.0.html GPL v3 or later
+ * Using this code requires that you first get a license from Piwik PRO.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ *
+ * @link http://piwik.pro
  */
 
 namespace Piwik\Plugins\PlatformsReport\Reports;
 
 use Piwik\Piwik;
-use Piwik\Plugin\Report;
 use Piwik\Plugin\ViewDataTable;
-use Piwik\Plugins\PlatformsReport\Columns\Platform;
 
-class GetPlatformsWithVersions extends Report
+class GetPlatformsWithVersions extends Base
 {
     protected function init()
     {
         parent::init();
 
-        $this->category = 'General_Visitors';
-        $this->dimension = new Platform();
         $this->name = Piwik::translate('PlatformsReport_PlatformsWithVersions');
         $this->documentation = Piwik::translate('PlatformsReport_GetPlatformsWithVersionsDocumentation');
-        $this->widgetTitle = 'PlatformsReport_PlatformsWithVersions';
-        $this->order = 30;
-    }
-
-    public function configureView(ViewDataTable $view)
-    {
-        $view->config->addTranslation('label', $this->dimension->getName());
+        $this->order = 52;
     }
 
     public function getRelatedReports()

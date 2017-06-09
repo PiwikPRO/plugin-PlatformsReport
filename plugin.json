@@ -1,10 +1,10 @@
 {
   "name": "PlatformsReport",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "New report in Visitors > Platforms that aggregates visits based on device type, OS version & browser version.",
   "theme": false,
   "require": {
-    "piwik": ">=2.14.3"
+    "piwik": ">=3.0.0,<4.0.0-b1"
   },
   "authors": [
     {
@@ -13,7 +13,8 @@
       "homepage": "https://piwik.pro"
     }
   ],
-  "license": "GPL v3+",
+  "license": "Paid plugin",
+  "license_homepage": "https://piwik.pro/contact",
   "keywords": ["platforms", "operating system", "browser", "device type"],
   "homepage": "http://piwik.pro"
 }
